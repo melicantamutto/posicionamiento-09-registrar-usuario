@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+li{
+    border: 1px solid black;
+    margin-bottom: 1em;
+    padding: 1em 0.75em;
+    border-radius: 3px;
+}
+input{
+    border: none;
+    outline: none;
+}
+i{
+    color: rgb(163, 163, 163);
+    margin-right: 0.3em;
+}
+.fa-check{
+    display: none;
+}
+form{
+    width: 30vw;
+    padding: 5em;
+}
+button{
+    background-color: rgb(226, 224, 224);
+    color: rgb(88, 88, 88);
+    border:1px solid black;
+    border-radius: 3px;
+    padding: 0.5em;
+}
+/* validation */
+input:valid + .fa-check{
+    display: inline;
+    float: right;
+}
+input:invalid{
+    box-shadow: none;
+}
